@@ -16,10 +16,10 @@ export class Media {
     @prop()
     post: string
 
-    // 关联表
-    // 数组属性
-    // 定义给mongoose
-    @arrayProp({ itemsRef: 'Episode' })
-    // 下面为了提示
-    episodes: Ref<Episode>[]
+    // // 关联表
+    // // 数组属性
+    // // 定义给mongoose
+    // @arrayProp({ itemsRef: 'Episode' })
+    // // 下面为了提示
+    // episodes: Ref<Episode>[]
 }   
